@@ -27,4 +27,6 @@ urlpatterns = [
     path('contact_us/', views.contact_us, name = 'contact_us'),
     path('venue/', views.venue, name = 'venue'),
     path('admin/', admin.site.urls),
+    
+    
 ]
