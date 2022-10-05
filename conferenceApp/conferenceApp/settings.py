@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.humanize',
-    
+    'bootstrap4',
+    'accounts',
 ]
 
 MIDDLEWARE = [
@@ -140,5 +141,5 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'johncena17148@gmail.com'
-EMAIL_HOST_PASSWORD = 'N@KUL@2002'
+EMAIL_HOST_PASSWORD = 'Gaikwad@666'
 

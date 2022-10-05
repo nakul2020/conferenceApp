@@ -24,9 +24,8 @@ urlpatterns = [
     path('', views.index, name = 'index'),
     path('organizing_commitee/', views.organizing_commitee, name = 'organizing_commitee'),
     path('speakers/', views.speakers, name = 'speakers'),
-    path('contact_us/', views.contact_us, name = 'contact_us'),
     path('venue/', views.venue, name = 'venue'),
     path('admin/', admin.site.urls),
-    
-    
+    path('accounts/', include('accounts.urls' ,namespace='accounts')),    
+    path('', include('django.contrib.auth.urls')) ,
 ]

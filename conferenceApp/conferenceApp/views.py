@@ -14,8 +14,6 @@ def organizing_commitee(request):
 def speakers(request):
     return render(request, 'speakers.html')
 
-def contact_us(request):
-    return render(request, 'contact_us.html')
 
 def venue(request):
     return render(request, 'venue.html')

@@ -1,0 +1,70 @@
+body {
+    overflow: hidden;
+    background-color: rgb(70, 12, 67);
+    color: white;
+  }
+
+
+#loginContainer{
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.mainContainerCSS{
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 120px; */
+    min-height: 90vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.box{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+    width: 800px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 5);
+    overflow: hidden;
+    border-radius: 20px;
+
+}
+
+#cssStyle{
+    position: relative;
+    z-index: 10;
+    /* color: #fff; */
+
+}
+.box::before{
+    content: '';
+    position: absolute;
+    width: 900px;
+    height: 900px;
+    background: linear-gradient(aqua, rgb(250, 5, 238));
+    animation: animate 3s linear infinite;
+}
+.box::after{
+    content: '';
+    position: absolute;
+    inset: 4px;
+    /* offset: 5px; */
+    background:transparent;
+    border-radius: 16px;
+}
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
