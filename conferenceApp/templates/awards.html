@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="d-block w-100" style=" background-image: url('/static/Images/trophy.webp'); height: 92vh;">
+
+
+<h3 class="text-light text-center p-4"> Awards </h3>
+<div class="text-center"  style=" display : flex; flex-direction: column; align-items: center; justify-content: center; ">
+<table class="table table-bordered fs-5" style="width: 60%;">
+    <thead>
+      <tr class="bg-dark text-light">
+        <th scope="col" style="min-width: 60px;">#</th>
+        <th scope="col">Awards | Position </th>
+        <th scope="col" style="min-width : 120px;">Bounty </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background-image: linear-gradient(to right, white, rgb(234, 202, 24));">
+        <th scope="row">1</th>
+        <td> Winner of the Event </td>
+        <td> $ 10000 </td>
+      </tr>
+      <tr style="background-image: linear-gradient(to right, white, silver);">
+        <th scope="row">2</th>
+        <td>First Runner Up</td>
+        <td>$ 5000</td>
+      </tr>
+      <tr style="background-image: linear-gradient(to right, white, rgb(160, 87, 87));;">
+        <th scope="row" >3</th>
+        <td>Second Runner Up</td>
+        <td>$ 2500</td>
+      </tr>
+      <tr class="" style="background-color: rgb(189, 184, 184);">
+        <th scope="row">4</th>
+        <td>Additional Award | Best Performer</td>
+        <td>$ 1000</td>
+      </tr>
+      <tr class="" style="background-color: rgb(189, 184, 184);">
+        <th scope="row">5</th>
+        <td>Additional Award | Managing team Lead</td>
+        <td>$ 1000</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+{% endblock %}

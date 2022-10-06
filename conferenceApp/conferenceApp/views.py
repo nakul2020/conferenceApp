@@ -20,3 +20,6 @@ def venue(request):
 
 def programme(request):
     return render(request, 'programme.html')
+
+def awards(request):
+    return render(request, 'awards.html')

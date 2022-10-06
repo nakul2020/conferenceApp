@@ -4,11 +4,7 @@
 {%block linkcss%}
 
 <style>
-  body {
-    overflow: hidden;
-    background-color: rgb(9, 36, 77);
-    color: white;
-  }
+
   #contactUsForm {
     align-items: center;
     position: absolute;
@@ -26,7 +22,10 @@
 </style>
 {%endblock%}
 {%block content%}
-<div id="contactUsContainer">
+
+<div class="d-block w-100" style="background-image: url('/static/Images/signUp.jpg'); height: 92vh;  ">
+
+<div id="contactUsContainer" class="text-dark" >
 
   <div id="contactUsForm" class="container my-3 p-5" style="max-width: 800px;">
     <h3 class="text-center">Contact Us Form</h3>
