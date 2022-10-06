@@ -17,3 +17,6 @@ def speakers(request):
 
 def venue(request):
     return render(request, 'venue.html')
+
+def programme(request):
+    return render(request, 'programme.html')

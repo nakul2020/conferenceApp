@@ -9,7 +9,7 @@
     
     <style>
       body{
-        background-color: rgb(160, 219, 199);
+        background-color: rgb(209, 236, 227);
       }
     </style>
     {% block linkcss %}{%endblock%}
@@ -26,6 +26,9 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item ">
                 <a class="nav-link active" aria-current="page" href="{%url 'index' %}">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{% url 'programme' %}">Programme</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="{% url 'organizing_commitee' %}">Commitee</a>
